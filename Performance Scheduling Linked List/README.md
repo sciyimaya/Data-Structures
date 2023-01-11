@@ -45,3 +45,61 @@ The Performance Scheduling Linked List project implements an interface that will
     Prompts the user for a position number and moves the current node to that number node, if it exists. If it does not exist, simply displays an error message to the user and does nothing.
 
 - **Q** (Exit the program)
+
+## Sample Input/Output
+```
+Operation 1: A is picked by the user (add to end). To add a new performance to 
+the list, the user needs to specify the performance name, lead performer name, 
+total number of participants, and duration of the performance in minutes. 
+
+A) Add to end
+B) Move current node backward
+C) Display current node
+D) Display all nodes
+F) Move current node forward
+I) Insert after current node
+J) Jump to position
+R) Remove current node
+Q) Exit
+ 
+Choose an operation: A
+
+Enter name of performance: Symphony Orchestra
+Enter name of lead performer: Jennifer Aylmer
+Enter the total participants: 50
+Enter the duration of the performance: 30
+
+New performance Symphony Orchestra is added to the end of the list.
+
+```
+```
+Operation 2: A is picked by the user, so the user will add another 
+performance to the list.
+
+Choose an operation: A
+
+Enter name of performance: Wind Ensemble
+Enter name of lead performer: Bruce Engel
+Enter the total participants: 30
+Enter the duration of the performance: 40
+
+New performance Wind Ensemble is added to the end of the list.
+```
+```
+Operation 3: D is picked by the user, so all the performance nodes 
+will be displayed.
+
+Choose an operation: D
+
+Schedule:
+
+
+Current No. Performance Name          Lead Performer Name       Participants Duration Start Time
+------------------------------------------------------------------------------------------------
+          1 Symphony Orchestra        Jennifer Aylmer                     50       30          0
+      *   2 Wind Ensemble             Bruce Engel                         30       40         30
+
+// The current node the cursor is pointing to on the list is represented by the asterisk (*)
+
+```
+
